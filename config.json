@@ -1,0 +1,18 @@
+{
+  "parents": {
+    "{{parentId}}": {
+      "displayName": "Utilities"
+    }
+  },
+  "subchildren": {
+    "{{subchildId}}": {
+      "displayName": "Electricity Usage",
+      "parentId": "{{parentId}}",
+      "childId": "{{childId}",
+      "parameters": {
+        "0": "SPEND_IN_GBP",
+        "1": "USAGE_IN_KWH"
+      }
+    }
+  }
+}
